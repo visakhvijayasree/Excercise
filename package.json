@@ -1,0 +1,28 @@
+{
+  "name": "cypress_excercise_bhr",
+  "version": "1.0.0",
+  "description": "coding challenge solution for the E2E tests written in Cypress",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cypress open",
+    "test": "npx cypress open --env allure=true",
+    "reporter": "allure generate allure-results --clean -o allure-report",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure": "./node_modules/allure-commandline/bin/allure open",
+    "mochawesome-report": "npx cypress run --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visakhvijayasree/Cypress_Excercise_XE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visakhvijayasree/Cypress_Excercise_XE/issues"
+  },
+  "homepage": "https://github.com/visakhvijayasree/Cypress_Excercise_XE#readme",
+  "devDependencies": {
+    "cypress": "^12.6.0",
+    "mochawesome": "^7.1.3"
+  }
+}
