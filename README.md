@@ -17,7 +17,7 @@ This repo contains the coding challenge solution for the E2E tests written in Cy
 git clone https://github.com/visakhvijayasree/
 
 ## cd into the cloned repo
-cd cypress-excercice
+
 
 ## install the node_modules
 npm install
