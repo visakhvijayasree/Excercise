@@ -1,0 +1,41 @@
+{
+    "elements": {
+        "loginButton": "a[href='/']:contains('Log in')",
+        "signInButton": "button[type='submit']:contains('Login')",
+        "signOutButton": "span:contains('Logout')",
+        "homeButton": "span:contains('Home')",
+        "email": "#email",
+        "password": "#password",
+        "nextButtonDemo": "button[type='submit']:contains('Next')",
+        "addEmployee": "button[type='button']:contains('Add employee')",
+        "empFirstName": "#firstName",
+        "empLastName": "#lastName",
+        "empEmail": "#email",
+        "empPhoneNumber": "#phoneNumber",
+        "empJobTitle": "#jobTitle",
+        "empStartDate": "#startDate > div",
+        "empCurrentDate": "div.DayPicker-Day-Number",
+        "empSaveDetails": "button[type='submit']:contains('Save new employee')",
+        "addAnotherEmp": "button[type='button']:contains('Add another employee')",
+        "navigateBackToHub": "a[href='/employee-hub']:contains('Back to employee hub')",
+        "deleteEmployeeRecord": "Delete employee record",
+        "checkBoxConfirmDelete": "input[data-testid='deleteCheckBox']",
+        "deleteEmployeeButton": "div.flex > button[color='secondary']",
+        "returnToEmployeeHub": "Return to employee hub",
+        "editButton": "a[data-testid='EditButton']"
+    },
+    "values": {
+        "emailValue": "visakhvijayasree@gmail.com",
+        "passwordValue": "Vis**20232023",
+        "empAddFirstName": "TestFirstName",
+        "empAddLastName": "TestLastName",
+        "empAddEmail": "TestFirstName.TestLastName@TestLastName.com",
+        "empAddPhoneNumber": "987654321",
+        "empAddJobTitle": "Software Test Engineer",
+        "empAddAnotherFirstName": "TestAnotherFirstName",
+        "empAddAnotherLastName": "TestAnotherLastName",
+        "empAddAnotherEmail": "TestAnotherFirst.TestLast@AnotherTest.com",
+        "empAddAnotherPhoneNumber": "1234567890",
+        "empAddAnotherJobTitle": "Test Engineer"
+    }
+}
